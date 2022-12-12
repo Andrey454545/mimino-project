@@ -1,2 +1,12 @@
 @import './common';
-@import './example';
+
+@import './utils/variables';
+@import './base/root';
+@import './utils/modal-comment';
+@import './utils/main-container';
+@import './utils/img';
+@import './utils/mixins';
+
+@import './table_modal';
+
+
