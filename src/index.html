@@ -28,78 +28,79 @@
           <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
           <form>
             <div class="line-box">
-              <div class="modal-field">
-                <label for="user-name" class="input-label">
-                    <div class="input-wrap">
-                        <input type="text" 
-                        name="user-name" 
-                        class="modal-input" 
-                        placeholder="Ваше ім’я"
-                        maxlength="10"
-                        required
-                        id="user-name"
-                        />
-                    </div>
-                    <span>На кого забронювати столик?</span>
-                </label>
-              </div>
-              <div class="modal-field">
-                  <label for="user-tel" class="input-label">
+              <div class="box">
+                <div class="modal-field">
+                  <label for="user-name" class="input-label">
                       <div class="input-wrap">
-                          <input type="tel" 
-                          name="user-tel" 
+                          <input type="text" 
+                          name="user-name" 
                           class="modal-input" 
-                          placeholder="2"
+                          placeholder="Ваше ім’я"
+                          maxlength="10"
+                          required
+                          id="user-name"
+                          />
+                      </div>
+                      <span>На кого забронювати столик?</span>
+                  </label>
+                </div>
+                <div class="modal-field">
+                  <label for="user-email" class="input-label">
+                      <div class="input-wrap">
+                          <input type="email" 
+                          name="user-email" 
+                          class="modal-input" 
+                          placeholder="+38 (___) ___-__-__"
                           maxlength="10"
                           required
                           id="user-tel"
                           />
-                          <svg class="modal-input-icon" width="24" height="24">
-                            <use href="./images/icon.svg#icon-arrow"></use>
-                          </svg>
                       </div>
-                      <span>Столик на яку кількість осіб?</span>
-                      </label>
+                      <span>Номер телефону</span>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="line-box">
-              <div class="modal-field">
-                <label for="user-email" class="input-label">
+              
+              <div class="box">
+                <div class="modal-field">
+                  <label for="user-tel" class="input-label">
                     <div class="input-wrap">
-                        <input type="email" 
-                        name="user-email" 
+                        <input type="tel" 
+                        name="user-tel" 
                         class="modal-input" 
-                        placeholder="+38 (___) ___-__-__"
+                        placeholder="2"
                         maxlength="10"
                         required
                         id="user-tel"
                         />
+                        <svg class="modal-input-icon" width="24" height="24">
+                          <use href="./images/icon.svg#icon-arrow"></use>
+                        </svg>
                     </div>
-                    <span>Номер телефону</span>
-                    </label>
-            </div>
-
-            <div class="modal-field">
-              <label for="user-email" class="input-label">
-                  <div class="input-wrap">
-                      <input type="email" 
-                      name="user-email" 
-                      class="modal-input" 
-                      placeholder="Сьогодні"
-                      maxlength="10"
-                      required
-                      id="user-tel"
-                      />
-                      <svg class="modal-input-icon" width="24" height="24">
-                        <use href="./images/icon.svg#icon-arrow"></use>
-                      </svg>
-                  </div>
-                  <span>На яку дату бронювати?</span>
+                      <span>Столик на яку кількість осіб?</span>
                   </label>
-          </div>
+                </div>
+                <div class="modal-field">
+                  <label for="user-email" class="input-label">
+                    <div class="input-wrap">
+                        <input type="email" 
+                        name="user-email" 
+                        class="modal-input" 
+                        placeholder="Сьогодні"
+                        maxlength="10"
+                        required
+                        id="user-tel"
+                        />
+                        <svg class="modal-input-icon" width="24" height="24">
+                          <use href="./images/icon.svg#icon-arrow"></use>
+                        </svg>
+                    </div>
+                      <span>На яку дату бронювати?</span>
+                  </label>
+                </div>
+              </div>
             </div>
-              
-
+            
               <button class="button-send" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
           </form>
       </div>
